@@ -4,23 +4,25 @@ using UnityEngine;
 
 public class InputTouch : MonoBehaviour
 {
-    
+
     void Start()
     {
-        
+
     }
 
-    
+
     void Update()
     {
 
-        if(Input.touchCount > 0)
+        if (Input.touchCount > 0)
         {
 
             Debug.Log(Input.GetTouch(0).position);
             GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cube.transform.position = new Vector3(0,0,0);
+            cube.transform.position = new Vector3(0, 0, 0);
 
         }
     }
 }
+
+
