@@ -12,7 +12,9 @@ public class Animate : MonoBehaviour
 
     Animator BocaMo;
 
-    float counter1 = 0;
+    float counter1 = 39;
+
+    public GameObject ContinueButton;
 
     //public Animation BocaM;
 
@@ -22,10 +24,7 @@ public class Animate : MonoBehaviour
 
         RoverM = GetComponent<Animator>();
         BocaMo = GetComponent<Animator>();
-        ;
-        
-
-          
+             
     }
 
     // Update is called once per frame
@@ -42,7 +41,22 @@ public class Animate : MonoBehaviour
            //Rv.Stop();
                 
         }
-      
+
+        if(counter1 == 40 )
+        {
+
+            counter1 += 1;
+        
+        }
+
+        else if (counter1 >= 41)
+        {
+                
+            ContinueButton.SetActive(true);
+            Debug.Log("Finished");
+
+        }    
+
     } 
 
     public void StartAnima()
@@ -96,20 +110,24 @@ public class Animate : MonoBehaviour
     {
 
         counter1 += 1;
-        if(counter1 < 40)
+        if(counter1 <= 40)
         {
 
             BocaMo.SetTrigger("Started");
 
         }
 
+
         else
         {
 
+            ContinueButton.SetActive(true);
             Debug.Log("Finished");
 
         }
 
     }
+
+
 
  }
