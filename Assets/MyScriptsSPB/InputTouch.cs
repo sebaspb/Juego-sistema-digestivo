@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InputTouch : MonoBehaviour
 {
 
+    public string nameS;
     void Start()
     {
 
@@ -18,11 +20,15 @@ public class InputTouch : MonoBehaviour
         {
 
             Debug.Log(Input.GetTouch(0).position);
-            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cube.transform.position = new Vector3(0, 0, 0);
+            SceneManager.LoadScene(nameS);
+
+
+            
 
         }
     }
+
+   
 }
 
 
