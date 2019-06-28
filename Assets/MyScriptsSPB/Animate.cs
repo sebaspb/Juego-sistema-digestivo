@@ -12,11 +12,11 @@ public class Animate : MonoBehaviour
 
     Animator BocaMo;
 
-    float counter1 = 39;
+    float counter1 = 0;
 
     public GameObject ContinueButton;
 
-    //public Animation BocaM;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -64,7 +64,7 @@ public class Animate : MonoBehaviour
 
         RoverM.SetTrigger("Started");
         BocaMo.SetTrigger("Started");
-        //BocaM.Play();
+        
            
     }
 
