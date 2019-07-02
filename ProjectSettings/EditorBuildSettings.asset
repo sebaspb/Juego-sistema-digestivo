@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ScenesSPB/TestSPB.unity
     guid: c18f4e97e5821f54cbd20244a23e842f
-  - enabled: 0
+  - enabled: 1
     path: Assets/ScenesSPB/TestDS.unity
     guid: f01516995f71ffe478452fb33ae28380
   - enabled: 1
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SistemaDigestivoJLS/Scene/Scenes de pantallas/UsarAR.unity
     guid: b18dd548871b9f244ae6aa51b1987eb1
+  - enabled: 1
+    path: Assets/SistemaDigestivoJLS/Scene/VistaGeneral.unity
+    guid: 34760cd3d81a2ec4b836324966884b60
   m_configObjects: {}

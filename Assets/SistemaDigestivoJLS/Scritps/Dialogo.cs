@@ -9,6 +9,7 @@ public class Dialogo : MonoBehaviour
     private int index;
     public float typingSpeed;
     public GameObject continueButton;
+    public GameObject ButtonScene;
 
     void Start()
     {
@@ -35,6 +36,7 @@ public class Dialogo : MonoBehaviour
     public void NextSentence()
     {
         continueButton.SetActive(false);
+        ButtonScene.SetActive(false);
 
         if (index < sentences.Length - 1)
         {
@@ -46,6 +48,7 @@ public class Dialogo : MonoBehaviour
         {
             texPlay.text = "";
             continueButton.SetActive(false);
+            ButtonScene.SetActive(true);
         }
 
     }
