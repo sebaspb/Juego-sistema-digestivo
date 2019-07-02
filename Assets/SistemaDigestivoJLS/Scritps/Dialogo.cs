@@ -13,7 +13,8 @@ public class Dialogo : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(Type());
+        //StartCoroutine(Type());
+        StartCoroutine(TimeText());
     }
 
     void Update()
@@ -51,5 +52,12 @@ public class Dialogo : MonoBehaviour
             ButtonScene.SetActive(true);
         }
 
+    }
+
+    IEnumerator TimeText()
+    {
+        yield return new WaitForSeconds(2);
+        StartCoroutine(Type());
+        Debug.Log("aparesco");
     }
 }
