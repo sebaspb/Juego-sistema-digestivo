@@ -728,7 +728,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 3a702259bc9056b4896522babd45fcab, type: 3}
       propertyPath: m_Name
-      value: BOCA (1)
+      value: BOCAInicialA
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3a702259bc9056b4896522babd45fcab, type: 3}
       propertyPath: m_LocalPosition.x
