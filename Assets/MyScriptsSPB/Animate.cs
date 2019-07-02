@@ -78,6 +78,7 @@ public class Animate : MonoBehaviour
             BocaMo.SetTrigger("Started");
 
         }
+
     }
 
     public void AnimBoton2()
