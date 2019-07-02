@@ -209,14 +209,14 @@ RectTransform:
   m_GameObject: {fileID: 226138166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.585115, y: 0.585115, z: 0.585115}
+  m_LocalScale: {x: 0.77293694, y: 0.77293694, z: 0.77293694}
   m_Children: []
   m_Father: {fileID: 1691201874}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 47.1, y: 29.2}
+  m_AnchoredPosition: {x: 56.8, y: 52.1}
   m_SizeDelta: {x: 121.09, y: 71.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &226138168
@@ -520,8 +520,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -732,8 +732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.2, y: -30.2}
-  m_SizeDelta: {x: 66.84, y: 30}
+  m_AnchoredPosition: {x: 47.3, y: -46.7}
+  m_SizeDelta: {x: 75.07, y: 38.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1385539598
 MonoBehaviour:
@@ -856,9 +856,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texPlay: {fileID: 851018849}
   sentences:
-  - Hola soy una bolita del diablo
-  - traigan saumerio por favor o les boy a cantar
-  - una cancion de bad bunny :V
+  - "Hola Amigo m\xEDo"
+  - en este juego te divertiras mucho
+  - y a la vez aprenderas sobre
+  - el sistema digestivo
+  - "!LISTO\xA1?, pues que comience el juego"
   typingSpeed: 0.02
   continueButton: {fileID: 1385539596}
   ButtonScene: {fileID: 1922065241}
@@ -1210,14 +1212,14 @@ RectTransform:
   m_GameObject: {fileID: 1922065241}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6217481, y: 0.6217481, z: 0.6217481}
+  m_LocalScale: {x: 1.117903, y: 1.117903, z: 1.117903}
   m_Children: []
   m_Father: {fileID: 1691201874}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 398, y: -66}
+  m_AnchoredPosition: {x: 425.3, y: -219.1}
   m_SizeDelta: {x: 108.48, y: 44.983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1941927012
