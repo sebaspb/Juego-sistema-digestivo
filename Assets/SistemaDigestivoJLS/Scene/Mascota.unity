@@ -858,8 +858,7 @@ MonoBehaviour:
   sentences:
   - "Hola Amigo m\xEDo"
   - en este juego te divertiras mucho
-  - y a la vez aprenderas sobre
-  - el sistema digestivo
+  - y a la vez aprenderas sobre el sistema digestivo
   - "!LISTO\xA1?, pues que comience el juego"
   typingSpeed: 0.02
   continueButton: {fileID: 1385539596}
