@@ -72,13 +72,30 @@ public class Animate : MonoBehaviour
     {
 
         counter1 += 1;
-        if(counter1 < 5)
+        //if(counter1 <= 5)
+        //{
+        for (int i = 0; i < 5; i++)
+        {
+            BocaMo.SetTrigger("Started");
+            //BocaMo.SetTrigger("Continue");
+            //if(BocaMo.SetTrigger("Continue"))
+            //{
+        }
+
+
+
+            //}
+
+        //}
+
+        //else if(counter1 == 6)
         {
 
-            BocaMo.SetTrigger("Started");
+            BocaMo.SetTrigger("Stop");
 
         }
 
+        
     }
 
     public void AnimBoton2()
