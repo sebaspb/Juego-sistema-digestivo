@@ -992,8 +992,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelSettings: {fileID: 0}
+  PanelOption: {fileID: 0}
   Open: {fileID: 0}
   Close: {fileID: 0}
+  OpOpen: {fileID: 0}
+  OpClos: {fileID: 0}
 --- !u!1 &1739291672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,7 +1114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1922065242
 MonoBehaviour:
   m_ObjectHideFlags: 0
