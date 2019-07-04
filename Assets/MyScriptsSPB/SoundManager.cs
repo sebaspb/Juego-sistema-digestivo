@@ -7,6 +7,10 @@ public class SoundManager : MonoBehaviour
     public string TagMusica = "Music";
     internal float InstanceTime = 0;
 
+    public static float MusicVolume;
+
+    GameObject[] pause;
+
     void Awake()
     {
         //Find all the music objects in the scene
@@ -26,6 +30,21 @@ public class SoundManager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(transform.gameObject);
+        pause = GameObject.FindGameObjectsWithTag("pause");
+        foreach(GameObject pauseObj in pause)
+        {
+
+            pauseObj.SetActive(false);
+
+        }
+
     }
 
+    public void MusicController()
+    {
+
+        AudioListener.pause = !AudioListener.pause;
+
+    }
+        
 }
