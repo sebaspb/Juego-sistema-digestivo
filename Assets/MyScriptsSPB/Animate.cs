@@ -10,20 +10,20 @@ public class Animate : MonoBehaviour
     //Ejemplo para detener animación
     //Animation Rv;
 
-    Animator BocaMo;
+    //Animator BocaMo;
 
     float counter1 = 0;
 
     public GameObject ContinueButton;
-
     
+    private Animation animation;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        animation = GetComponent<Animation>();
         RoverM = GetComponent<Animator>();
-        BocaMo = GetComponent<Animator>();
+        //BocaMo = GetComponent<Animator>();
              
     }
 
@@ -31,16 +31,17 @@ public class Animate : MonoBehaviour
     void Update()
     {
 
-        if (this.RoverM.GetCurrentAnimatorStateInfo(0).IsName("RoverMovement 0"))
-        {
+        //if (this.RoverM.GetCurrentAnimatorStateInfo(0).IsName("RoverMovement 0"))
+        //{
 
             
                 
-           Debug.Log("Hello");
+           ///Debug.Log("Hello");
            //Ejemplo para detener animación
            //Rv.Stop();
                 
-        }
+        //}
+        
 
         if(counter1 == 40 )
         {
@@ -63,7 +64,7 @@ public class Animate : MonoBehaviour
     {
 
         RoverM.SetTrigger("Started");
-        BocaMo.SetTrigger("Started");
+        //BocaMo.SetTrigger("Started");
         
            
     }
@@ -71,29 +72,27 @@ public class Animate : MonoBehaviour
     public void AnimBoton1()
     {
 
-        counter1 += 1;
+        
         //if(counter1 <= 5)
         //{
-        for (int i = 0; i < 5; i++)
+        for (int count = 1; count <= 4; count++)
         {
-            BocaMo.SetTrigger("Started");
-            //BocaMo.SetTrigger("Continue");
-            //if(BocaMo.SetTrigger("Continue"))
-            //{
+            animation.PlayQueued("test");
         }
 
+        //BocaMo.SetTrigger("Continue");
+        //if(BocaMo.SetTrigger("Continue"))
+        //{
 
 
-            //}
+
+
+        //}
 
         //}
 
         //else if(counter1 == 6)
-        {
-
-            BocaMo.SetTrigger("Stop");
-
-        }
+    
 
         
     }
@@ -101,12 +100,9 @@ public class Animate : MonoBehaviour
     public void AnimBoton2()
     {
 
-        counter1 += 1;
-        if(counter1 < 20)
+        for (int count = 1; count <= 20; count++)
         {
-
-            BocaMo.SetTrigger("Started");
-
+            animation.PlayQueued("test");
         }
 
     }
@@ -114,12 +110,9 @@ public class Animate : MonoBehaviour
     public void AnimBoton3()
     {
 
-        counter1 += 1;
-        if(counter1 < 30)
+        for (int count = 1; count <= 30; count++)
         {
-
-            BocaMo.SetTrigger("Started");
-
+            animation.PlayQueued("test");
         }
 
     }
@@ -127,25 +120,17 @@ public class Animate : MonoBehaviour
     public void AnimBoton4()
     {
 
-        counter1 += 1;
-        if(counter1 <= 40)
+        for (int count = 1; count <= 35; count++)
         {
-
-            BocaMo.SetTrigger("Started");
-
+            animation.PlayQueued("test");
         }
-
-
-        else
-        {
-
-            ContinueButton.SetActive(true);
-            Debug.Log("Finished");
-
-        }
-
     }
 
+    //public IEnumerator boca (float time)
+    //{
 
+        //yield return new WaitForSeconds(time);
+        //BocaMo.SetBool("control", false);
 
- }
+    //}
+}
