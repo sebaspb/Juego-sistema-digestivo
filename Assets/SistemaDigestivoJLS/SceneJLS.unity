@@ -466,7 +466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -65.99988, y: -63.00003}
+  m_AnchoredPosition: {x: -66, y: -63.00003}
   m_SizeDelta: {x: 77.79999, y: 60.200012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163247555
@@ -2360,6 +2360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagMusica: Music
+  Sound: {fileID: 2107483990}
+  Silence: {fileID: 1954027810}
 --- !u!1 &1525504571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,7 +2795,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1954027813}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1381797951}
+        m_MethodName: MusicController
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1954027813
@@ -2910,7 +2923,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2107483993}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1381797951}
+        m_MethodName: MusicController
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2107483993

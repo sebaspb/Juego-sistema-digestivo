@@ -7,9 +7,11 @@ public class SoundManager : MonoBehaviour
     public string TagMusica = "Music";
     internal float InstanceTime = 0;
 
-    public static float MusicVolume;
-
     GameObject[] pause;
+
+    public GameObject Sound;
+
+    public GameObject Silence;
 
     void Awake()
     {
@@ -21,7 +23,12 @@ public class SoundManager : MonoBehaviour
         {
             foreach (var ObjetoMusica in ObjetosMusica)
             {
-                if (ObjetoMusica.GetComponent<SoundManager>().InstanceTime <= 0) Destroy(gameObject);
+                if (ObjetoMusica.GetComponent<SoundManager>().InstanceTime <= 0)
+                {
+
+                    Destroy(gameObject);
+
+                }
             }
         }
     }
@@ -38,13 +45,27 @@ public class SoundManager : MonoBehaviour
 
         }
 
+        //AudioListener.pause = false;
+
+        Sound.SetActive(false);
+        Silence.SetActive(true);
+
     }
 
     public void MusicController()
     {
-
+        
         AudioListener.pause = !AudioListener.pause;
+        Sound.SetActive(false);
+        Silence.SetActive(true);
+        if(AudioListener.pause)
+        {
 
+            Silence.SetActive(false);
+            Sound.SetActive(true);
+
+        }
+       
     }
         
 }
