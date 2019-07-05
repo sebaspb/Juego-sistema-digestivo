@@ -260,7 +260,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 163592089}
-        m_MethodName: CergarScena
+        m_MethodName: CargarScena
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -587,7 +587,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 163592089}
-        m_MethodName: CergarScena
+        m_MethodName: CargarScena
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
