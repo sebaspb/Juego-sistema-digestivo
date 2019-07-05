@@ -45,8 +45,6 @@ public class SoundManager : MonoBehaviour
 
         }
 
-        //AudioListener.pause = false;
-
         Sound.SetActive(false);
         Silence.SetActive(true);
 
