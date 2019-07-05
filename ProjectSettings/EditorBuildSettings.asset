@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/SistemaDigestivoJLS/Scene/Mascota.unity
     guid: 6f29e4857443eb843af7e75f585b7afd
   - enabled: 1
-    path: Assets/ScenesSPB/TestDS.unity
+    path: Assets/ScenesSPB/EscenaMinijuegoBoca.unity
     guid: f01516995f71ffe478452fb33ae28380
   - enabled: 1
     path: Assets/SistemaDigestivoJLS/Scene/Pantallas.unity

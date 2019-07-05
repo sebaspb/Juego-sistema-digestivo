@@ -75,7 +75,7 @@ public class Animate : MonoBehaviour
         
         //if(counter1 <= 5)
         //{
-        for (int count = 1; count <= 4; count++)
+        for (int count = 1; count <= 3; count++)
         {
             animation.PlayQueued("test");
         }
@@ -100,7 +100,7 @@ public class Animate : MonoBehaviour
     public void AnimBoton2()
     {
 
-        for (int count = 1; count <= 20; count++)
+        for (int count = 1; count <= 18; count++)
         {
             animation.PlayQueued("test");
         }
@@ -110,7 +110,7 @@ public class Animate : MonoBehaviour
     public void AnimBoton3()
     {
 
-        for (int count = 1; count <= 30; count++)
+        for (int count = 1; count <= 28; count++)
         {
             animation.PlayQueued("test");
         }
@@ -120,7 +120,7 @@ public class Animate : MonoBehaviour
     public void AnimBoton4()
     {
 
-        for (int count = 1; count <= 35; count++)
+        for (int count = 1; count <= 33; count++)
         {
             animation.PlayQueued("test");
         }
