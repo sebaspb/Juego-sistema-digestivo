@@ -18,6 +18,14 @@ public class Animate : MonoBehaviour
     
     private Animation animation;
 
+    public GameObject Button4;
+
+    public GameObject Button20;
+
+    public GameObject Button30;
+
+    public GameObject Button34;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,20 +51,15 @@ public class Animate : MonoBehaviour
         //}
         
 
-        if(counter1 == 40 )
-        {
-
-            counter1 += 1;
-        
-        }
-
-        else if (counter1 >= 41)
-        {
+       if (counter1 >= 34)
+       {
                 
             ContinueButton.SetActive(true);
             Debug.Log("Finished");
 
-        }    
+       }
+
+        Debug.Log(counter1);
 
     } 
 
@@ -73,36 +76,24 @@ public class Animate : MonoBehaviour
     {
 
         
-        //if(counter1 <= 5)
-        //{
+        
         for (int count = 1; count <= 3; count++)
         {
+            
             animation.PlayQueued("test");
+            counter1 += 1.334f;
+                      
         }
-
-        //BocaMo.SetTrigger("Continue");
-        //if(BocaMo.SetTrigger("Continue"))
-        //{
-
-
-
-
-        //}
-
-        //}
-
-        //else if(counter1 == 6)
-    
-
-        
     }
 
     public void AnimBoton2()
     {
 
-        for (int count = 1; count <= 18; count++)
+        for (int count = 1; count <= 19; count++)
         {
+            
             animation.PlayQueued("test");
+            counter1 += 1.0526f;
         }
 
     }
@@ -110,9 +101,11 @@ public class Animate : MonoBehaviour
     public void AnimBoton3()
     {
 
-        for (int count = 1; count <= 28; count++)
+        for (int count = 1; count <= 29; count++)
         {
+            
             animation.PlayQueued("test");
+            counter1 += 1.03448f;
         }
 
     }
@@ -123,14 +116,8 @@ public class Animate : MonoBehaviour
         for (int count = 1; count <= 33; count++)
         {
             animation.PlayQueued("test");
+            counter1 += 1.03130f;
+
         }
     }
-
-    //public IEnumerator boca (float time)
-    //{
-
-        //yield return new WaitForSeconds(time);
-        //BocaMo.SetBool("control", false);
-
-    //}
 }
