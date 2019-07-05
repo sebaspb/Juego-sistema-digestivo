@@ -63,7 +63,7 @@ public class SceneGameManager : MonoBehaviour
         OptionAnim.SetBool("Open", false);
     }
 
-    public void CergarScena(string nombreScene)
+    public void CargarScena(string nombreScene)
     {
         SceneManager.LoadScene(nombreScene);
     }
