@@ -1382,7 +1382,7 @@ PrefabInstance:
     - target: {fileID: 13700000, guid: 3a702259bc9056b4896522babd45fcab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6fb3013faa3cd0b488985604c878496c, type: 2}
+      objectReference: {fileID: 2100000, guid: 954d279a2b772c440bcee7796fd0b15c, type: 2}
     - target: {fileID: 13700000, guid: 3a702259bc9056b4896522babd45fcab, type: 3}
       propertyPath: m_UpdateWhenOffscreen
       value: 0
