@@ -11,4 +11,11 @@ public class PanelesObjects : MonoBehaviour
     {
         
     }
+
+    void PanelPosition()
+    {
+        //for (NumberPanel == )
+        //{
+        //}
+    }
 }
