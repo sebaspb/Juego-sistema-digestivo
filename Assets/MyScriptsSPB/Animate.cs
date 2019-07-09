@@ -18,7 +18,7 @@ public class Animate : MonoBehaviour
     
     private Animation animation;
 
-    public GameObject Button4;
+    public Button Button4;
 
     public GameObject Button20;
 
@@ -82,7 +82,7 @@ public class Animate : MonoBehaviour
             
             animation.PlayQueued("test");
             counter1 += 1.334f;
-                      
+            Button4.interactable = !Button4.interactable;          
         }
     }
 

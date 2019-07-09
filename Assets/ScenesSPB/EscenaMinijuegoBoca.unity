@@ -1709,6 +1709,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ContinueButton: {fileID: 607956985}
+  Button4: {fileID: 0}
+  Button20: {fileID: 87767755}
+  Button30: {fileID: 997066250}
+  Button34: {fileID: 1513222931}
 --- !u!111 &1460789704
 Animation:
   m_ObjectHideFlags: 0
