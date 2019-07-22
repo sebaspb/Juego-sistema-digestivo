@@ -77,12 +77,12 @@ public class Animate : MonoBehaviour
 
         
         
-        for (int count = 1; count <= 3; count++)
+        for (int count = 1; count <= 4; count++)
         {
             
             animation.PlayQueued("test");
             counter1 += 1.334f;
-            Button4.interactable = !Button4.interactable;          
+            //Button4.interactable = !Button4.interactable;          
         }
     }
 
