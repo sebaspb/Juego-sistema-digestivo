@@ -77,7 +77,7 @@ public class Animate : MonoBehaviour
 
         
         
-        for (int count = 1; count <= 4; count++)
+        for (int count = 1; count <= 3; count++)
         {
             
             animation.PlayQueued("test");
@@ -89,7 +89,7 @@ public class Animate : MonoBehaviour
     public void AnimBoton2()
     {
 
-        for (int count = 1; count <= 19; count++)
+        for (int count = 1; count <= 20; count++)
         {
             
             animation.PlayQueued("test");

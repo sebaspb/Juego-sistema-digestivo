@@ -1,73 +1,18 @@
 fileFormatVersion: 2
-guid: 503a98ed9c875494b8a5e0f5e3567ce8
+guid: 8780ce32e144e144bb3d353f1519fc1e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Camera
-    100004: Camera.001
-    100006: Cube
-    100008: Cube.001
-    100010: Cube.002
-    100012: Cube.003
-    100014: Cube.004
-    100016: Cube.005
-    100018: Lamp
-    100020: Plane
-    100022: Plane.000
-    100024: Sun
-    100026: Sun.001
-    100028: Sun.002
     400000: //RootNode
-    400002: Camera
-    400004: Camera.001
-    400006: Cube
-    400008: Cube.001
-    400010: Cube.002
-    400012: Cube.003
-    400014: Cube.004
-    400016: Cube.005
-    400018: Lamp
-    400020: Plane
-    400022: Plane.000
-    400024: Sun
-    400026: Sun.001
-    400028: Sun.002
-    2000000: Camera
-    2000002: Camera.001
-    2100000: Material.005
-    2100002: No Name
-    2100004: Material.007
-    2100006: Material.006
-    2100008: Material.003
-    2100010: Material.004
-    2100012: Material.002
-    2100014: Material.001
-    2100016: Material
-    2300000: Cube
-    2300002: Plane
-    2300004: Plane.000
-    3300000: Cube
-    3300002: Plane
-    3300004: Plane.000
-    4300000: Cube.005
-    4300002: Plane
-    4300004: Cube.004
-    4300006: Cube.003
-    4300008: Cube.002
-    4300010: Cube.001
-    4300012: Plane.000
-    4300014: Cube
+    2100000: Material_001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Plane_001
+    7400000: Default Take
     9500000: //RootNode
-    10800000: Lamp
-    10800002: Sun
-    10800004: Sun.001
-    10800006: Sun.002
-    13700000: Cube.001
-    13700002: Cube.002
-    13700004: Cube.003
-    13700006: Cube.004
-    13700008: Cube.005
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -87,15 +32,43 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
-    animationCompression: 1
+    importConstraints: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -120,7 +93,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
+    previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
@@ -135,7 +108,12 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human: []
-    skeleton: []
+    skeleton:
+    - name: BLISTO(Clone)
+      parentName: 
+      position: {x: -0, y: 0.000000002304443, z: 0.052719515}
+      rotation: {x: -0.6982818, y: 0, z: -0, w: 0.71582294}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
