@@ -4,18 +4,32 @@ using UnityEngine;
 
 public class PanelesObjects : MonoBehaviour
 {
-    public float NumberPanel = 0f;
-    public GameObject PanelPrefab;
+    public GameObject[] PanelPrefab;
+
+    int PanelLength;
+
+    readonly WaitForSeconds delay = new WaitForSeconds(2);
 
     void Start()
     {
-        
+        if (PanelPrefab != null && PanelPrefab.Length != 0)
+        {
+            PanelLength = PanelPrefab.Length;
+             StartCoroutine(PanelActive(3f));
+        }
     }
 
-    void PanelPosition()
+    private int index;
+
+    IEnumerator PanelActive(float time)
     {
-        //for (NumberPanel == )
-        //{
-        //}
+        while(index < PanelLength)
+        {
+            yield return null;
+            PanelPrefab[index].SetActive(true);
+            yield return delay;
+            index++;
+        }
+        StopAllCoroutines();
     }
 }

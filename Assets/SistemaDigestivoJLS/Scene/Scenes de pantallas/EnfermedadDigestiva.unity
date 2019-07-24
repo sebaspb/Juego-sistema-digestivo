@@ -600,8 +600,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 285490134}
-        m_MethodName: set_tag
+      - m_Target: {fileID: 285490137}
+        m_MethodName: CargarScena
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
