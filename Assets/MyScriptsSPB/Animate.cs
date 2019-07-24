@@ -18,13 +18,15 @@ public class Animate : MonoBehaviour
     
     private Animation animations;
 
-    public Button Button4;
+    public GameObject Button4;
 
     public Button Button20;
 
     public Button Button30;
 
     public Button Button34;
+
+    bool actC = false;
 
     // Start is called before the first frame update
     void Start()
@@ -61,7 +63,7 @@ public class Animate : MonoBehaviour
 
        }
 
-        Debug.Log(counter1);
+        //Debug.Log(counter1);
 
     } 
 
@@ -78,13 +80,25 @@ public class Animate : MonoBehaviour
     {
 
         DeactivateButtons();
+
         for (int count = 1; count <= 4; count++)
         {
             
+            actC = true;
             animations.PlayQueued("Boca Unity");
             counter1 += 1.334f;
-            StartCoroutine(ActivateButtons(4f));         
+            Debug.Log(counter1);
         }
+
+        if (actC == true)
+        {
+
+            Debug.Log("Hola");
+            StartCoroutine(ActivateButtons(4));
+
+        }
+
+
     }
 
     public void AnimBoton2()
@@ -96,7 +110,7 @@ public class Animate : MonoBehaviour
 
             animations.PlayQueued("Boca Unity");
             counter1 += 1.0526f;
-            StartCoroutine(ActivateButtons(20f));
+            //StartCoroutine(ActivateButtons(20f));
         }
 
     }
@@ -110,7 +124,7 @@ public class Animate : MonoBehaviour
 
             animations.PlayQueued("Boca Unity");
             counter1 += 1.03448f;
-            StartCoroutine(ActivateButtons(30f));
+            //StartCoroutine(ActivateButtons(30f));
         }
 
     }
@@ -123,7 +137,7 @@ public class Animate : MonoBehaviour
         {
             animations.PlayQueued("Boca Unity");
             counter1 += 1.03130f;
-            StartCoroutine(ActivateButtons(34f));
+            //StartCoroutine(ActivateButtons(34f));
 
         }
     }
@@ -131,24 +145,23 @@ public class Animate : MonoBehaviour
     void DeactivateButtons()
     {
 
-        Button4.interactable = !Button4.interactable;
-        Button20.interactable = !Button20.interactable;
-        Button30.interactable = !Button30.interactable;
-        Button34.interactable = !Button34.interactable;
+        Button4.SetActive(false);
+        Button20.interactable = false;
+        Button30.interactable = false;
+        Button34.interactable = false;
 
     }
 
     IEnumerator ActivateButtons(float time)
     {
-        if (!Button4.interactable && !Button20.interactable && !Button30.interactable && !Button34.interactable)
-        {
 
-            Button4.interactable = true;
+
+            Button4.SetActive(true);
             Button20.interactable = true;
             Button30.interactable = true;
             Button34.interactable = true;
             yield return new WaitForSeconds(time);
 
-        }
+        
     }
 }
