@@ -32,6 +32,8 @@ public class Animate : MonoBehaviour
         animations = GetComponent<Animation>();
         RoverM = GetComponent<Animator>();
         //BocaMo = GetComponent<Animator>();
+        
+
              
     }
 
