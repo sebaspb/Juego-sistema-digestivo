@@ -2358,16 +2358,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Button20
       value: 
-      objectReference: {fileID: 87767755}
+      objectReference: {fileID: 87767757}
     - target: {fileID: 2189761454168388709, guid: 7c4008993fda6c14b9267b62096be405,
         type: 3}
       propertyPath: Button30
       value: 
-      objectReference: {fileID: 997066250}
+      objectReference: {fileID: 997066252}
     - target: {fileID: 2189761454168388709, guid: 7c4008993fda6c14b9267b62096be405,
         type: 3}
       propertyPath: Button34
       value: 
-      objectReference: {fileID: 1513222931}
+      objectReference: {fileID: 1513222933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c4008993fda6c14b9267b62096be405, type: 3}
