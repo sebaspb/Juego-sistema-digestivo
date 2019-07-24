@@ -16,9 +16,9 @@ public class Animate : MonoBehaviour
 
     public GameObject ContinueButton;
     
-    private Animation animation;
+    private Animation animations;
 
-    public GameObject Button4;
+    public Button Button4;
 
     public GameObject Button20;
 
@@ -29,9 +29,11 @@ public class Animate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animation = GetComponent<Animation>();
+        animations = GetComponent<Animation>();
         RoverM = GetComponent<Animator>();
         //BocaMo = GetComponent<Animator>();
+        
+
              
     }
 
@@ -80,19 +82,19 @@ public class Animate : MonoBehaviour
         for (int count = 1; count <= 3; count++)
         {
             
-            animation.PlayQueued("test");
+            animations.PlayQueued("test");
             counter1 += 1.334f;
-                      
+            //Button4.interactable = !Button4.interactable;          
         }
     }
 
     public void AnimBoton2()
     {
 
-        for (int count = 1; count <= 19; count++)
+        for (int count = 1; count <= 20; count++)
         {
             
-            animation.PlayQueued("test");
+            animations.PlayQueued("test");
             counter1 += 1.0526f;
         }
 
@@ -104,7 +106,7 @@ public class Animate : MonoBehaviour
         for (int count = 1; count <= 29; count++)
         {
             
-            animation.PlayQueued("test");
+            animations.PlayQueued("test");
             counter1 += 1.03448f;
         }
 
@@ -115,7 +117,7 @@ public class Animate : MonoBehaviour
 
         for (int count = 1; count <= 33; count++)
         {
-            animation.PlayQueued("test");
+            animations.PlayQueued("test");
             counter1 += 1.03130f;
 
         }
