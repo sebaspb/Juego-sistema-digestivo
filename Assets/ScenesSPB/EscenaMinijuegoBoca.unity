@@ -2353,7 +2353,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Button4
       value: 
-      objectReference: {fileID: 2036104103}
+      objectReference: {fileID: 2036104101}
     - target: {fileID: 2189761454168388709, guid: 7c4008993fda6c14b9267b62096be405,
         type: 3}
       propertyPath: Button20
@@ -2369,5 +2369,20 @@ PrefabInstance:
       propertyPath: Button34
       value: 
       objectReference: {fileID: 1513222933}
+    - target: {fileID: 2189761453494302895, guid: 7c4008993fda6c14b9267b62096be405,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -88.57852
+      objectReference: {fileID: 0}
+    - target: {fileID: 2189761453494302895, guid: 7c4008993fda6c14b9267b62096be405,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.2722239e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2189761453494302895, guid: 7c4008993fda6c14b9267b62096be405,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.2722239e-14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c4008993fda6c14b9267b62096be405, type: 3}

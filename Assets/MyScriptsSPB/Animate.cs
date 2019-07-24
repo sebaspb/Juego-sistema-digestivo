@@ -83,11 +83,17 @@ public class Animate : MonoBehaviour
 
         for (int count = 1; count <= 4; count++)
         {
+           
             
-            actC = true;
             animations.PlayQueued("Boca Unity");
+            if (!animations.isPlaying)
+            {
+
+                actC = true;
+
+            }
             counter1 += 1.334f;
-            Debug.Log(counter1);
+           
         }
 
         if (actC == true)
@@ -135,6 +141,7 @@ public class Animate : MonoBehaviour
         DeactivateButtons();
         for (int count = 1; count <= 34; count++)
         {
+
             animations.PlayQueued("Boca Unity");
             counter1 += 1.03130f;
             //StartCoroutine(ActivateButtons(34f));
@@ -155,13 +162,11 @@ public class Animate : MonoBehaviour
     IEnumerator ActivateButtons(float time)
     {
 
-
-            Button4.SetActive(true);
-            Button20.interactable = true;
-            Button30.interactable = true;
-            Button34.interactable = true;
-            yield return new WaitForSeconds(time);
-
+        Button4.SetActive(true);
+        Button20.interactable = true;
+        Button30.interactable = true;
+        Button34.interactable = true;
+        yield return new WaitForSeconds(time);
         
     }
 }
