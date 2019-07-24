@@ -79,10 +79,10 @@ public class Animate : MonoBehaviour
 
         
         
-        for (int count = 1; count <= 3; count++)
+        for (int count = 1; count <= 4; count++)
         {
             
-            animations.PlayQueued("test");
+            animations.PlayQueued("Boca Unity");
             counter1 += 1.334f;
             //Button4.interactable = !Button4.interactable;          
         }
@@ -93,8 +93,8 @@ public class Animate : MonoBehaviour
 
         for (int count = 1; count <= 20; count++)
         {
-            
-            animations.PlayQueued("test");
+
+            animations.PlayQueued("Boca Unity");
             counter1 += 1.0526f;
         }
 
@@ -103,10 +103,10 @@ public class Animate : MonoBehaviour
     public void AnimBoton3()
     {
 
-        for (int count = 1; count <= 29; count++)
+        for (int count = 1; count <= 30; count++)
         {
-            
-            animations.PlayQueued("test");
+
+            animations.PlayQueued("Boca Unity");
             counter1 += 1.03448f;
         }
 
@@ -115,9 +115,9 @@ public class Animate : MonoBehaviour
     public void AnimBoton4()
     {
 
-        for (int count = 1; count <= 33; count++)
+        for (int count = 1; count <= 34; count++)
         {
-            animations.PlayQueued("test");
+            animations.PlayQueued("Boca Unity");
             counter1 += 1.03130f;
 
         }
