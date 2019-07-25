@@ -18,7 +18,7 @@ public class Animate : MonoBehaviour
     
     private Animation animations;
 
-    public GameObject Button4;
+    public Button Button4;
 
     public Button Button20;
 
@@ -100,10 +100,9 @@ public class Animate : MonoBehaviour
         {
 
             Debug.Log("Hola");
-            StartCoroutine(ActivateButtons(4));
+            StartCoroutine(ActivateButtons(2.5f));
 
         }
-
 
     }
 
@@ -116,7 +115,7 @@ public class Animate : MonoBehaviour
 
             animations.PlayQueued("Boca Unity");
             counter1 += 1.0526f;
-            //StartCoroutine(ActivateButtons(20f));
+            StartCoroutine(ActivateButtons(12.5f));
         }
 
     }
@@ -130,7 +129,7 @@ public class Animate : MonoBehaviour
 
             animations.PlayQueued("Boca Unity");
             counter1 += 1.03448f;
-            //StartCoroutine(ActivateButtons(30f));
+            StartCoroutine(ActivateButtons(18.9f));
         }
 
     }
@@ -144,7 +143,7 @@ public class Animate : MonoBehaviour
 
             animations.PlayQueued("Boca Unity");
             counter1 += 1.03130f;
-            //StartCoroutine(ActivateButtons(34f));
+            StartCoroutine(ActivateButtons(21.5f));
 
         }
     }
@@ -152,7 +151,7 @@ public class Animate : MonoBehaviour
     void DeactivateButtons()
     {
 
-        Button4.SetActive(false);
+        Button4.interactable = false;
         Button20.interactable = false;
         Button30.interactable = false;
         Button34.interactable = false;
@@ -161,12 +160,12 @@ public class Animate : MonoBehaviour
 
     IEnumerator ActivateButtons(float time)
     {
-
-        Button4.SetActive(true);
+        yield return new WaitForSeconds(time);
+        Button4.interactable = true;
         Button20.interactable = true;
         Button30.interactable = true;
         Button34.interactable = true;
-        yield return new WaitForSeconds(time);
+        
         
     }
 }
