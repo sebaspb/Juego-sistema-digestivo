@@ -1,25 +1,50 @@
 fileFormatVersion: 2
-guid: 3a702259bc9056b4896522babd45fcab
+guid: 36f34bd980689ac44b7572b84dbe3fee
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Plane.000
     400000: //RootNode
-    2100000: Material.001
-    4300000: Plane.002
-    7400000: test
-    7400002: Plane.002|Action.001
-    7400004: Plane.002|Action.002
-    7400006: Plane.002|Key.003Action
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Plane.000
+    2100000: Material.005
+    2100002: Material.007
+    2100004: Material.006
+    2100006: Material.003
+    2100008: Material.004
+    2100010: Material.002
+    2100012: Material.001
+    2300000: Plane.000
+    3300000: Plane.000
+    4300000: Cube.005
+    4300002: Cube.004
+    4300004: Cube.003
+    4300006: Cube.002
+    4300008: Cube.001
+    4300010: Plane.000
+    7400000: Intestino delgado
+    7400002: Higado
+    7400004: Intestino grueso
+    7400006: Estomago
+    7400008: Esofago
     9500000: //RootNode
     11100000: //RootNode
-    13700000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 954d279a2b772c440bcee7796fd0b15c, type: 2}
+    13700000: Cube.001
+    13700002: Cube.002
+    13700004: Cube.003
+    13700006: Cube.004
+    13700008: Cube.005
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -48,10 +73,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: test
-      takeName: Plane.002|Action
+      name: Intestino delgado
+      takeName: Intestino delgado
       firstFrame: 0
-      lastFrame: 19
+      lastFrame: 90
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -76,10 +101,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Plane.002|Action.001
-      takeName: Plane.002|Action.001
+      name: Higado
+      takeName: Higado
       firstFrame: 0
-      lastFrame: 19
+      lastFrame: 122
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -104,10 +129,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Plane.002|Action.002
-      takeName: Plane.002|Action.002
+      name: Intestino grueso
+      takeName: Intestino grueso
       firstFrame: 0
-      lastFrame: 19
+      lastFrame: 260
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -132,10 +157,38 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Plane.002|Key.003Action
-      takeName: Plane.002|Key.003Action
+      name: Estomago
+      takeName: Estomago
       firstFrame: 0
-      lastFrame: 1
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Esofago
+      takeName: Esofago
+      firstFrame: 0
+      lastFrame: 96
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -165,7 +218,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -208,7 +261,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1

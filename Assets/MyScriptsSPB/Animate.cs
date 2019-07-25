@@ -20,11 +20,13 @@ public class Animate : MonoBehaviour
 
     public Button Button4;
 
-    public GameObject Button20;
+    public Button Button20;
 
-    public GameObject Button30;
+    public Button Button30;
 
-    public GameObject Button34;
+    public Button Button34;
+
+    bool actC = false;
 
     // Start is called before the first frame update
     void Start()
@@ -61,7 +63,7 @@ public class Animate : MonoBehaviour
 
        }
 
-        Debug.Log(counter1);
+        //Debug.Log(counter1);
 
     } 
 
@@ -71,31 +73,47 @@ public class Animate : MonoBehaviour
         RoverM.SetTrigger("Started");
         //BocaMo.SetTrigger("Started");
         
-           
     }
 
     public void AnimBoton1()
     {
 
-        
-        
-        for (int count = 1; count <= 3; count++)
+        DeactivateButtons();
+
+        for (int count = 1; count <= 4; count++)
         {
-            
-            animations.PlayQueued("test");
+                       
+            animations.PlayQueued("Boca Unity");
+            if (!animations.isPlaying)
+            {
+
+                actC = true;
+
+            }
             counter1 += 1.334f;
-            //Button4.interactable = !Button4.interactable;          
+           
+        }
+
+        if (actC == true)
+        {
+
+            Debug.Log("Hola");
+            StartCoroutine(ActivateButtons(2.5f));
+
         }
     }
 
     public void AnimBoton2()
     {
 
+        DeactivateButtons();
         for (int count = 1; count <= 20; count++)
         {
-            
-            animations.PlayQueued("test");
+
+            animations.PlayQueued("Boca Unity");
             counter1 += 1.0526f;
+            StartCoroutine(ActivateButtons(12.5f));
+
         }
 
     }
@@ -103,11 +121,14 @@ public class Animate : MonoBehaviour
     public void AnimBoton3()
     {
 
-        for (int count = 1; count <= 29; count++)
+        DeactivateButtons();
+        for (int count = 1; count <= 30; count++)
         {
-            
-            animations.PlayQueued("test");
+
+            animations.PlayQueued("Boca Unity");
             counter1 += 1.03448f;
+            StartCoroutine(ActivateButtons(18.9f));
+
         }
 
     }
@@ -115,11 +136,35 @@ public class Animate : MonoBehaviour
     public void AnimBoton4()
     {
 
-        for (int count = 1; count <= 33; count++)
+        DeactivateButtons();
+        for (int count = 1; count <= 34; count++)
         {
-            animations.PlayQueued("test");
+
+            animations.PlayQueued("Boca Unity");
             counter1 += 1.03130f;
+            StartCoroutine(ActivateButtons(21.5f));
 
         }
+    }
+
+    void DeactivateButtons()
+    {
+
+        Button4.interactable = false;
+        Button20.interactable = false;
+        Button30.interactable = false;
+        Button34.interactable = false;
+
+    }
+
+    IEnumerator ActivateButtons(float time)
+    {
+
+        yield return new WaitForSeconds(time);
+        Button4.interactable = true;
+        Button20.interactable = true;
+        Button30.interactable = true;
+        Button34.interactable = true;
+        
     }
 }
