@@ -27,7 +27,7 @@ public class SoundManager : MonoBehaviour
                 {
                     
                     Destroy(transform.gameObject.GetComponent<AudioSource>());
-                    
+                                   
                 }
             }
         }
