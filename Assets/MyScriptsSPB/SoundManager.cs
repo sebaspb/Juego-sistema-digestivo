@@ -39,7 +39,6 @@ public class SoundManager : MonoBehaviour
     {
         DontDestroyOnLoad(transform.gameObject);
        
-
         pause = GameObject.FindGameObjectsWithTag("pause");
         foreach(GameObject pauseObj in pause)
         {
@@ -59,6 +58,7 @@ public class SoundManager : MonoBehaviour
 
         else if(!AudioListener.pause)
         {
+
             Silence.SetActive(true);
             Sound.SetActive(false);
 
