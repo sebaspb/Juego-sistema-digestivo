@@ -28,6 +28,11 @@ public class Animate : MonoBehaviour
 
     bool actC = false;
 
+    bool loadingGun = false;
+
+    float atGunTime = 0.54f;
+
+    float atGun;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,8 +40,6 @@ public class Animate : MonoBehaviour
         RoverM = GetComponent<Animator>();
         //BocaMo = GetComponent<Animator>();
         
-
-             
     }
 
     // Update is called once per frame
@@ -155,6 +158,14 @@ public class Animate : MonoBehaviour
         Button30.interactable = false;
         Button34.interactable = false;
 
+    }
+
+    public void AnimDSESO()
+    {
+
+        animations.PlayQueued("Esofago");
+
+               
     }
 
     IEnumerator ActivateButtons(float time)
