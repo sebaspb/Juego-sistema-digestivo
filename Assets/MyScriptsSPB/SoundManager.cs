@@ -77,6 +77,7 @@ public class SoundManager : MonoBehaviour
             Silence.SetActive(true);
 
         }
+
         if(AudioListener.pause)
         {
 
