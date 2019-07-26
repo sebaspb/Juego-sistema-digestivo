@@ -21,10 +21,7 @@ public class InputTouch : MonoBehaviour
 
             Debug.Log(Input.GetTouch(0).position);
             SceneManager.LoadScene(nameS);
-
-
             
-
         }
     }
 
