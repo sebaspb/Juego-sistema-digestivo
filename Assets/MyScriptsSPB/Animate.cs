@@ -28,6 +28,7 @@ public class Animate : MonoBehaviour
 
     bool actC = false;
 
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -35,8 +36,6 @@ public class Animate : MonoBehaviour
         RoverM = GetComponent<Animator>();
         //BocaMo = GetComponent<Animator>();
         
-
-             
     }
 
     // Update is called once per frame
@@ -84,23 +83,13 @@ public class Animate : MonoBehaviour
         {
                        
             animations.PlayQueued("Boca Unity");
-            if (!animations.isPlaying)
-            {
-
-                actC = true;
-
-            }
+            
             counter1 += 1.334f;
-           
-        }
-
-        if (actC == true)
-        {
-
             Debug.Log("Hola");
             StartCoroutine(ActivateButtons(2.5f));
 
         }
+   
     }
 
     public void AnimBoton2()
@@ -155,6 +144,16 @@ public class Animate : MonoBehaviour
         Button30.interactable = false;
         Button34.interactable = false;
 
+    }
+
+    public void AnimDSESO()
+    {
+
+        animations.PlayQueued("Esofago");
+        
+        
+
+               
     }
 
     IEnumerator ActivateButtons(float time)
