@@ -7,6 +7,7 @@ public class SoundManager : MonoBehaviour
     public string TagMusica = "Music";
     internal float InstanceTime = 0;
 
+    
     GameObject[] pause;
 
     public GameObject Sound;
@@ -17,7 +18,6 @@ public class SoundManager : MonoBehaviour
     {
         //Find all the music objects in the scene
         GameObject[] ObjetosMusica = GameObject.FindGameObjectsWithTag(TagMusica);
-
         
         if (ObjetosMusica.Length > 1)
         {
@@ -25,18 +25,21 @@ public class SoundManager : MonoBehaviour
             {
                 if (ObjetoMusica.GetComponent<SoundManager>().InstanceTime <= 0)
                 {
-
-                    //Destroy(gameObject);
-
+                    
+                    Destroy(transform.gameObject.GetComponent<AudioSource>());
+                    
                 }
             }
         }
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(transform.gameObject);
+       
+
         pause = GameObject.FindGameObjectsWithTag("pause");
         foreach(GameObject pauseObj in pause)
         {
@@ -44,18 +47,36 @@ public class SoundManager : MonoBehaviour
             pauseObj.SetActive(false);
 
         }
+        
+        //Sound.SetActive(false);
+        if(AudioListener.pause)
+        {
 
-        Sound.SetActive(false);
-        Silence.SetActive(true);
+            Silence.SetActive(false);
+            Sound.SetActive(true);
 
+        }
+
+        else if(!AudioListener.pause)
+        {
+            Silence.SetActive(true);
+            Sound.SetActive(false);
+
+        }
+        
     }
 
     public void MusicController()
     {
         
         AudioListener.pause = !AudioListener.pause;
-        Sound.SetActive(false);
-        Silence.SetActive(true);
+        if(!AudioListener.pause)
+        {
+
+            Sound.SetActive(false);
+            Silence.SetActive(true);
+
+        }
         if(AudioListener.pause)
         {
 
