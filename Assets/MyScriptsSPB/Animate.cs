@@ -28,11 +28,7 @@ public class Animate : MonoBehaviour
 
     bool actC = false;
 
-    bool loadingGun = false;
-
-    float atGunTime = 0.54f;
-
-    float atGun;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -87,23 +83,13 @@ public class Animate : MonoBehaviour
         {
                        
             animations.PlayQueued("Boca Unity");
-            if (!animations.isPlaying)
-            {
-
-                actC = true;
-
-            }
+            
             counter1 += 1.334f;
-           
-        }
-
-        if (actC == true)
-        {
-
             Debug.Log("Hola");
             StartCoroutine(ActivateButtons(2.5f));
 
         }
+   
     }
 
     public void AnimBoton2()
@@ -164,6 +150,7 @@ public class Animate : MonoBehaviour
     {
 
         animations.PlayQueued("Esofago");
+        
 
                
     }
