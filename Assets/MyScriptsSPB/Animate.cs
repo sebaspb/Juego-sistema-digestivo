@@ -150,10 +150,7 @@ public class Animate : MonoBehaviour
     {
 
         animations.PlayQueued("Esofago");
-        
-        
-
-               
+      
     }
 
     IEnumerator ActivateButtons(float time)

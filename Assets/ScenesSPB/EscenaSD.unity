@@ -206,6 +206,7 @@ RectTransform:
   - {fileID: 1226053601}
   - {fileID: 1319586357}
   - {fileID: 411457663}
+  - {fileID: 1521394460}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -680,6 +681,25 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5b311219d27154148baf1e28a8e8304f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41cd12eb607f758419d7a9a269d5dad9, type: 3}
+--- !u!1 &777373904 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: 41cd12eb607f758419d7a9a269d5dad9,
+    type: 3}
+  m_PrefabInstance: {fileID: 777373903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &777373905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777373904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a516130da90744d8ed3ed241b570ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameS: EscenaMinijuegoBoca
 --- !u!1 &1226053600
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,13 +1001,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521394459}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 999, y: 200, z: 1276}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 447.5, y: -70, z: 1276}
   m_LocalScale: {x: 1.45, y: 1.45, z: 1.45}
   m_Children:
   - {fileID: 1492463044}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 22625035}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1814676225
 GameObject:
