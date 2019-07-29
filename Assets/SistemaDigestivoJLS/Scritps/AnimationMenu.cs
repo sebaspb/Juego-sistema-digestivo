@@ -17,7 +17,7 @@ public class AnimationMenu : MonoBehaviour
     IEnumerator playVideo()
     {
         video.Prepare();
-        WaitForSeconds WFS = new WaitForSeconds(1);
+        WaitForSeconds WFS = new WaitForSeconds(0.15f);
         while (!video.isPrepared)
         {
             yield return WFS;
