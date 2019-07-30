@@ -83,7 +83,6 @@ public class Animate : MonoBehaviour
         {
                        
             animations.PlayQueued("Boca Unity");
-            
             counter1 += 1.334f;
             Debug.Log("Hola");
             StartCoroutine(ActivateButtons(2.5f));
@@ -150,10 +149,7 @@ public class Animate : MonoBehaviour
     {
 
         animations.PlayQueued("Esofago");
-        
-        
-
-               
+      
     }
 
     IEnumerator ActivateButtons(float time)
