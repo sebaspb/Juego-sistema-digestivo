@@ -54,6 +54,23 @@ public class Dialogo : MonoBehaviour
 
     }
 
+    public void NextDialago()
+    {
+        continueButton.SetActive(false);
+        if (index < sentences.Length - 1)
+        {
+            index++;
+            texPlay.text = "";
+            StartCoroutine(Type());
+        }
+        else
+        {
+            texPlay.text = "";
+            continueButton.SetActive(false);
+        }
+
+    }
+
     IEnumerator TimeText()
     {
         yield return new WaitForSeconds(2);
