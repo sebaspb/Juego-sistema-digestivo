@@ -22,10 +22,10 @@ public class InputTouch : MonoBehaviour
 
         if (Input.touchCount > 0)
         {
-
+            
             Debug.Log(Input.GetTouch(0).position);
             SceneManager.LoadScene(nameS);
-                    
+                                
         }
 
     }
@@ -36,7 +36,7 @@ public class InputTouch : MonoBehaviour
         animations.PlayQueued("Esofago");
         new WaitForSeconds(4f);
 
-        if(!animations.PlayQueued("Esofago"))
+        if(!animations.IsPlaying("Esofago"))
         {
 
             Debug.Log("Hello");
