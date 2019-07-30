@@ -19,17 +19,29 @@ public class InputTouch : MonoBehaviour
 
     void Update()
     {
-                   
+
         if (Input.touchCount > 0)
         {
 
-            if (!animations.Play("Esofago"))
-            {
-                
-                Debug.Log(Input.GetTouch(0).position);
-                SceneManager.LoadScene(nameS);
-                
-            }
+            Debug.Log(Input.GetTouch(0).position);
+            SceneManager.LoadScene(nameS);
+                    
         }
+
+    }
+
+    public void IniciarAnimaciónEs()
+    {
+
+        animations.PlayQueued("Esofago");
+        new WaitForSeconds(4f);
+
+        if(!animations.PlayQueued("Esofago"))
+        {
+
+            Debug.Log("Hello");
+            
+        }
+
     }
 }
