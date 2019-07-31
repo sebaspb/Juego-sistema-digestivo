@@ -124,7 +124,7 @@ public class Animate : MonoBehaviour
     public void AnimBoton4()
     {
 
-        DeactivateButtons();
+        DeactivateButtons(); 
         for (int count = 1; count <= 16; count++)
         {
 

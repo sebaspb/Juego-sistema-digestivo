@@ -456,15 +456,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41cd12eb607f758419d7a9a269d5dad9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41cd12eb607f758419d7a9a269d5dad9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41cd12eb607f758419d7a9a269d5dad9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41cd12eb607f758419d7a9a269d5dad9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -502,6 +502,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 954d279a2b772c440bcee7796fd0b15c, type: 2}
+    - target: {fileID: 11100000, guid: 41cd12eb607f758419d7a9a269d5dad9, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 41cd12eb607f758419d7a9a269d5dad9, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 3
