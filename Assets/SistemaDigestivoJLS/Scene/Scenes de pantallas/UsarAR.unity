@@ -257,7 +257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 361, y: -151}
+  m_AnchoredPosition: {x: 373, y: -170}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &530401087
@@ -331,7 +331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 515, y: 116}
+  m_AnchoredPosition: {x: 543, y: 116}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &589988689
@@ -444,15 +444,15 @@ RectTransform:
   m_GameObject: {fileID: 668594904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.9622235, y: 1.9622235, z: 1.9622235}
   m_Children: []
   m_Father: {fileID: 1536584096}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 67, y: 51}
-  m_SizeDelta: {x: 89.29999, y: 61.100006}
+  m_AnchoredPosition: {x: 128, y: 89}
+  m_SizeDelta: {x: 105.29999, y: 68.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &668594906
 MonoBehaviour:
@@ -684,7 +684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -266, y: 119}
+  m_AnchoredPosition: {x: -313, y: 119}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1243332558
@@ -758,7 +758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -85, y: -150}
+  m_AnchoredPosition: {x: -103, y: -169}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1482335868
@@ -946,12 +946,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf2c5f49781788d47a868303503701af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PanelSettings: {fileID: 0}
-  PanelOption: {fileID: 0}
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  OpOpen: {fileID: 0}
-  OpClos: {fileID: 0}
 --- !u!114 &1536584098
 MonoBehaviour:
   m_ObjectHideFlags: 0

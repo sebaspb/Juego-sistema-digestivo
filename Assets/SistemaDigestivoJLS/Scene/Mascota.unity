@@ -209,14 +209,14 @@ RectTransform:
   m_GameObject: {fileID: 226138166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.77, y: 0.77, z: 1}
+  m_LocalScale: {x: 1.962224, y: 1.962224, z: 1}
   m_Children: []
   m_Father: {fileID: 1691201874}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 52, y: -74}
+  m_AnchoredPosition: {x: 133, y: -96}
   m_SizeDelta: {x: 121, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &226138168
@@ -575,8 +575,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719935060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.9646, y: -13.968101, z: 111.77}
-  m_LocalScale: {x: 1.2765155, y: 1.2765155, z: 1.2765155}
+  m_LocalPosition: {x: -40.818, y: -14.4, z: 113.11}
+  m_LocalScale: {x: 1.6420456, y: 1.6420456, z: 1.6420456}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 24
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -731,7 +731,7 @@ RectTransform:
   m_GameObject: {fileID: 851018848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2501867, y: 1.2501867, z: 1.2501867}
+  m_LocalScale: {x: 2.023879, y: 2.023879, z: 2.023879}
   m_Children:
   - {fileID: 1385539597}
   m_Father: {fileID: 1691201874}
@@ -739,7 +739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89.991, y: 67.083}
+  m_AnchoredPosition: {x: 181.89, y: 158}
   m_SizeDelta: {x: 205.1, y: 73.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1037597724
@@ -852,14 +852,14 @@ RectTransform:
   m_GameObject: {fileID: 1385539596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7599734, y: 0.7599734, z: 0.7599734}
+  m_LocalScale: {x: 0.94506496, y: 0.94506496, z: 0.94506496}
   m_Children: []
   m_Father: {fileID: 851018851}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143, y: -92.4}
+  m_AnchoredPosition: {x: 92.4, y: -79.3}
   m_SizeDelta: {x: 75.07, y: 38.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1385539598
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   - "Hola Amigo m\xEDo"
   - en este juego te divertiras mucho
   - "y a la vez aprender\xE1s sobre el sistema digestivo"
-  - "!LISTO\xA1?, pues que comience el juego"
+  - "\xBF!LISTO\xA1?, pues que comience el juego"
   typingSpeed: 0.02
   continueButton: {fileID: 1385539596}
   ButtonScene: {fileID: 1922065241}
@@ -1245,12 +1245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf2c5f49781788d47a868303503701af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PanelSettings: {fileID: 0}
-  PanelOption: {fileID: 0}
-  Open: {fileID: 0}
-  Close: {fileID: 0}
-  OpOpen: {fileID: 0}
-  OpClos: {fileID: 0}
 --- !u!1 &1739291672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,8 +1338,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739291672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.9, y: -10.1, z: 103}
-  m_LocalScale: {x: 7.1896706, y: 7.1896706, z: 7.1896706}
+  m_LocalPosition: {x: 10.463, y: -9.424, z: 101.83}
+  m_LocalScale: {x: 9.248432, y: 9.248432, z: 9.248432}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5

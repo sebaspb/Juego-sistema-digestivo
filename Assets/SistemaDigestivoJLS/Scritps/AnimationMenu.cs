@@ -7,7 +7,8 @@ using UnityEngine.Video;
 public class AnimationMenu : MonoBehaviour
 {
     public RawImage image;
-    public VideoPlayer video; 
+    public VideoPlayer video;
+    public GameObject Fondo;
 
     void Start()
     {
@@ -25,6 +26,14 @@ public class AnimationMenu : MonoBehaviour
         }
         image.texture = video.texture;
         video.Play();
+        if (video == null)
+        {
+            Fondo.SetActive(true);
+        }
+        else
+        {
+            Fondo.SetActive(false);
+        }
     }
 
 }
