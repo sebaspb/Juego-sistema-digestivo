@@ -85,7 +85,7 @@ public class Animate : MonoBehaviour
             animations.PlayQueued("animacion boca");
             counter1 += 1.334f;
             Debug.Log("Hola");
-            StartCoroutine(ActivateButtons(2.5f));
+            StartCoroutine(ActivateButtons(0.7f));
 
         }
    
@@ -95,12 +95,12 @@ public class Animate : MonoBehaviour
     {
 
         DeactivateButtons();
-        for (int count = 1; count <= 15; count++)
+        for (int count = 1; count <= 10; count++)
         {
 
             animations.PlayQueued("animacion boca");
             counter1 += 1.0526f;
-            StartCoroutine(ActivateButtons(12.5f));
+            StartCoroutine(ActivateButtons(4.3f));
 
         }
 
@@ -110,12 +110,12 @@ public class Animate : MonoBehaviour
     {
 
         DeactivateButtons();
-        for (int count = 1; count <= 20; count++)
+        for (int count = 1; count <= 14; count++)
         {
 
             animations.PlayQueued("animacion boca");
             counter1 += 1.03448f;
-            StartCoroutine(ActivateButtons(18.9f));
+            StartCoroutine(ActivateButtons(5.9f));
 
         }
 
@@ -125,12 +125,12 @@ public class Animate : MonoBehaviour
     {
 
         DeactivateButtons();
-        for (int count = 1; count <= 24; count++)
+        for (int count = 1; count <= 16; count++)
         {
 
             animations.PlayQueued("animacion boca");
             counter1 += 1.03130f;
-            StartCoroutine(ActivateButtons(21.5f));
+            StartCoroutine(ActivateButtons(6.8f));
 
         }
     }
