@@ -1024,7 +1024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1561988542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1116,12 +1116,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 139c708eecfd5764c9a6310dff0c260c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texPlay: {fileID: 0}
+  texPlay: {fileID: 300340691}
   sentences:
-  - 
+  - "En el intestino grueso, m\xE1s agua se transporta desde el tracto gastrointestinal
+    hasta el torrente sangu\xEDneo."
   typingSpeed: 0.05
   continueButton: {fileID: 1159439119}
   ButtonScene: {fileID: 0}
+  Nube: {fileID: 1561988541}
 --- !u!4 &2077106039
 Transform:
   m_ObjectHideFlags: 0

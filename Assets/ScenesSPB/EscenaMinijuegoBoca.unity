@@ -1444,11 +1444,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texPlay: {fileID: 773298406}
   sentences:
-  - hola
+  - El proceso digestivo comienza en la boca.
   - adios
   typingSpeed: 0.2
   continueButton: {fileID: 39296340}
   ButtonScene: {fileID: 0}
+  Nube: {fileID: 1397394423}
 --- !u!4 &1051724345
 Transform:
   m_ObjectHideFlags: 0
@@ -1888,7 +1889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1397394424
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2483,6 +2484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1564381082}
     m_Modifications:
+    - target: {fileID: 100000, guid: 4f057a243e0bbcc4bbb81194764a851d, type: 3}
+      propertyPath: m_Name
+      value: boca animada 2 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f057a243e0bbcc4bbb81194764a851d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2534,10 +2539,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 4f057a243e0bbcc4bbb81194764a851d, type: 3}
       propertyPath: m_LocalScale.z
       value: 99.999985
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 4f057a243e0bbcc4bbb81194764a851d, type: 3}
-      propertyPath: m_Name
-      value: boca animada 2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 4f057a243e0bbcc4bbb81194764a851d, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
