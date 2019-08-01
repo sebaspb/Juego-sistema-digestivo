@@ -10,10 +10,10 @@ public class Dialogo : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
     public GameObject ButtonScene;
+    public GameObject Nube;
 
     void Start()
     {
-        //StartCoroutine(Type());
         StartCoroutine(TimeText());
     }
 
@@ -27,10 +27,12 @@ public class Dialogo : MonoBehaviour
 
     IEnumerator Type()
     {
+        Nube.SetActive(false);
         foreach (char letter in sentences[index].ToCharArray())
         {
             texPlay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
+            Nube.SetActive(true);
         }
     }
 
@@ -67,6 +69,7 @@ public class Dialogo : MonoBehaviour
         {
             texPlay.text = "";
             continueButton.SetActive(false);
+            Nube.SetActive(false);
         }
 
     }
