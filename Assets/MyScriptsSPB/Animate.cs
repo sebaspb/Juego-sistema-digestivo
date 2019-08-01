@@ -54,7 +54,7 @@ public class Animate : MonoBehaviour
         //}
         
 
-       if (counter1 >= 34)
+       if (counter1 >= 30)
        {
                 
             ContinueButton.SetActive(true);
@@ -83,7 +83,7 @@ public class Animate : MonoBehaviour
         {
                        
             animations.PlayQueued("animacion boca");
-            counter1 += 1.334f;
+            counter1 += 2f;
             Debug.Log("Hola");
             StartCoroutine(ActivateButtons(0.7f));
 
@@ -114,7 +114,7 @@ public class Animate : MonoBehaviour
         {
 
             animations.PlayQueued("animacion boca");
-            counter1 += 1.03448f;
+            counter1 += 1.6f;
             StartCoroutine(ActivateButtons(5.9f));
 
         }
@@ -129,7 +129,7 @@ public class Animate : MonoBehaviour
         {
 
             animations.PlayQueued("animacion boca");
-            counter1 += 1.03130f;
+            counter1 += 1.9f;
             StartCoroutine(ActivateButtons(6.8f));
 
         }
