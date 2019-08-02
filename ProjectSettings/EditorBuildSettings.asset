@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SistemaDigestivoJLS/Intro del sistama digestivo.unity
+    guid: 613dea1101fce5148b625d97906eb9c7
+  - enabled: 1
     path: Assets/SistemaDigestivoJLS/SceneJLS.unity
     guid: 37d52661122a74e4e928b45c44fc67a9
   - enabled: 1
