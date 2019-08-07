@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/ScenesSPB/EscenaPancreas.unity
     guid: d8c661b903aaa554286a344369db68ab
   - enabled: 1
+    path: Assets/SistemaDigestivoJLS/Scene/Final.unity
+    guid: 9db82efd7754ff54b9d02c624a695f26
+  - enabled: 1
     path: Assets/ScenesSPB/EscenaVB.unity
     guid: e5d5b1a8a3eb9a8449d10cae807f181d
   m_configObjects: {}
