@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: 980450c64b91f6948b841879dc5a216b
+guid: 1244da44a4626044280f68bbe2418e45
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: alimentos para modelado-12_0
+    21300002: alimentos para modelado-12_1
+    21300004: alimentos para modelado-12_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -104,11 +107,71 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: alimentos para modelado-12_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 483
+        width: 389
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71066eadcf33374f86b5cc4dc15af2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alimentos para modelado-12_1
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 343
+        width: 79
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98f96d45adafa74292f21733c12fc0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alimentos para modelado-12_2
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 92
+        width: 321
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55e8bee73891ab44926660bbce9e7dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 73c7560a3ab9d2142af1cd7cea8ba665
     vertices: []
     indices: 
     edges: []

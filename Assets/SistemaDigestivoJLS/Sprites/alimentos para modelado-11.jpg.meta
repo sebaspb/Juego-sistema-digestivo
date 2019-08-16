@@ -1,7 +1,11 @@
 fileFormatVersion: 2
-guid: 980450c64b91f6948b841879dc5a216b
+guid: d7f37e47fd5e78b4f88f3968c1e2e19b
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: alimentos para modelado-11_0
+    21300002: alimentos para modelado-11_1
+    21300004: alimentos para modelado-11_2
+    21300006: alimentos para modelado-11_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +44,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -104,11 +108,91 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: alimentos para modelado-11_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 428
+        width: 331
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25058c9c52f10ab46b71e516a3a1f12e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alimentos para modelado-11_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 219
+        width: 285
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b7c83368a4e9f42976fed9cc65003f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alimentos para modelado-11_2
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 219
+        width: 279
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd30bf8e358c405429d0ce1bd5dbc28d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alimentos para modelado-11_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 36
+        width: 331
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a28edf7a41ce04081cc534432c2c87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ddd5f4dc5c1ef9d4ca68703dec6a41f4
     vertices: []
     indices: 
     edges: []
